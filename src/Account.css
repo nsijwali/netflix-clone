@@ -1,0 +1,41 @@
+.account {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    place-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.account__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.account__avatar {
+    padding: 20px;
+    width: 80px;
+    object-fit: contain;
+}
+
+.account__avatar:hover {
+    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+}
+
+.account__manage {
+    background-color: transparent;
+    padding: 5px 40px;
+    color: #fff;
+    border: 1px solid #fff;
+    margin-top: 50px;
+}
+
+.account__manage:focus {
+    outline: none;
+}
