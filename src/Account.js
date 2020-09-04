@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './Account.css'
 
 function Account({ contentHide }) {
@@ -6,9 +6,6 @@ function Account({ contentHide }) {
         contentHide(true);
         localStorage.setItem('showavatar', true);
     }
-    useEffect(() => {
-        localStorage.removeItem('showavatar');
-    }, [])
 
     return (
         <div className="account">

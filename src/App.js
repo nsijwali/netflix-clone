@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import Row from './Row';
 import requests from './requests';
@@ -8,15 +8,16 @@ import Account from './Account'
 
 function App() {
   const [isLogged, setLoginState] = useState(false);
-  let showAvatar = false;
   const showContent = (login) => {
     setLoginState(login);
-    showAvatar = login;
   }
+  useEffect(() => {
+    localStorage.removeItem('showavatar');
+  }, [])
 
   return (
     <div className="app">
-      <Nav showAvatar={showAvatar} />
+      <Nav />
       {!isLogged && <Account contentHide={showContent} />}
       {isLogged && <>
         <Banner />
