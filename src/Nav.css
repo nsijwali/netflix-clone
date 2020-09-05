@@ -30,3 +30,32 @@
     width: 30px;
     object-fit: contain;
 }
+
+.nav__sub_avatar {
+    right: 20px;
+    width: 30px;
+    object-fit: contain;
+}
+
+.MuiPaper-root {
+    background-color: rgba(0, 0, 0, .9) !important;
+    color: #fff !important;
+    font-size: 13px !important;
+    line-height: 21px;
+    opacity: 0.9;
+    margin-top: 4px;
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+}
+
+.nav__exit {
+    font-size: 14px;
+    color: #fff;
+}
+
+.nav__exit:hover {
+    text-decoration: underline;
+}

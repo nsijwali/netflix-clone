@@ -1,10 +1,17 @@
-import React from 'react';
-import './Account.css'
+import React, { useEffect } from 'react';
+import './Account.css';
+import { useStateValue } from './StateProvider'
+import { actionTypes } from './reducer'
 
 function Account({ contentHide }) {
+    const [{ isAvatarHidden }, dispatch] = useStateValue();
+
     const showContent = () => {
         contentHide(true);
-        localStorage.setItem('showavatar', true);
+        dispatch({
+            type: actionTypes.SET_AVATAR_STATE,
+            isAvatarHidden: true
+        });
     }
 
     return (

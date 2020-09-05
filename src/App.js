@@ -4,7 +4,8 @@ import Row from './Row';
 import requests from './requests';
 import Banner from './Banner'
 import Nav from './Nav';
-import Account from './Account'
+import Account from './Account';
+import Footer from './Footer';
 
 function App() {
   const [isLogged, setLoginState] = useState(false);
@@ -29,6 +30,7 @@ function App() {
         <Row title="Horror Movies" fetchUrl={requests.fetchHorrorMovies} />
         <Row title="Romantic Movies" fetchUrl={requests.fetchRomanceMovies} />
         <Row title="Documentaries" fetchUrl={requests.fetchDocumentaries} />
+        <Footer />
       </>}
     </div>
   );
