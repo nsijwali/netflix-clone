@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './Account.css';
 import { useStateValue } from './StateProvider'
 import { actionTypes } from './reducer'

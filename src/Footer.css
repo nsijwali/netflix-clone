@@ -40,7 +40,7 @@
     box-sizing: border-box;
 }
 
-@media screen and (max-width: 840px) and (min-width: 481px) {
+@media screen and (max-width: 600px) and (min-width: 320px) {
     .footer {
         display: none;
     }
