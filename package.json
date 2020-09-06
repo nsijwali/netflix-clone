@@ -2,6 +2,11 @@
   "name": "netflix-clone",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "Nitin Sijwali",
+    "email": "sijwalinitin@gmail.com"
+  },
+  "description": "This app is developed using Reactjs and context-api. Api's provided by TMDB. Deloyed using firebase",
   "dependencies": {
     "@material-ui/core": "^5.0.0-alpha.8",
     "@material-ui/icons": "^4.9.1",

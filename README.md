@@ -1,6 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-checkout-->https://netflix-doppelganger.web.app
+checkout the app here-->https://netflix-doppelganger.web.app
+
+Created by: Nitin Sijwali.
+
+## IMPORTANT Notice:
+
+you need to create TMDB account to access api. You will get 'api_key', append it in all the api.
 
 ## Available Scripts
 
@@ -28,6 +34,10 @@ The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+## for firebase deploy
+
+checkout--->> https://firebase.com. You only need gmail account to login.
 
 ### `npm run eject`
 
